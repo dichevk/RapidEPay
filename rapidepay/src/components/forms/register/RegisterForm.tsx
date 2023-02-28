@@ -16,7 +16,7 @@ export const RegisterForm = () => {
   } = useForm<RegisterFormFields>();
 
   const onSubmit = (data: RegisterFormFields) => {
-    console.log(data);
+    console.log(data); //replace with communication with the Nest.js backend
   };
 
   return (
