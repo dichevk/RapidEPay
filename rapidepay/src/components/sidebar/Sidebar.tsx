@@ -1,5 +1,5 @@
 import { navigationItems } from '@/utils/routes';
-import styles from './index.module.scss';
+import styles from '../../styles/index.module.scss';
 import { NavigationSidebarItem } from './SidebarItem';
 
 export const NavigationSidebar = () => {

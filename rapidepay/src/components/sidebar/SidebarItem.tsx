@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import { FC } from 'react';
 import { NavigationItem } from '@/types';
 import { getNavigationIcon } from '@/utils/helpers';
-import styles from './index.module.scss';
+import styles from '../../styles/index.module.scss';
 
 type Props = {
   item: NavigationItem;
